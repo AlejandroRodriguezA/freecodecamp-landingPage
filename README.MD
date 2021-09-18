@@ -1,5 +1,5 @@
 # Paguina de Landing para www.freecodecamp curso de Web Design.
-El objetivo fue cumplir los criterios y agregar algo de funcionalidad basica.
+El objetivo fue cumplir los criterios y agregar algo de funcionalidad basica y se puede visualizar en https://alejandrorodrigueza.github.io/freecodecamp-landingPage/
 
 ## Criterios utilizados para la evaluacion:
 1. User Story #1: My product landing page should have a header element with a corresponding id="header".
