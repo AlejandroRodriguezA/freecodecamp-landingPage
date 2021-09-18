@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page freecodecamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        
+        <nav id="nav-bar">
+            <ul id="menu" class="menu">
+                <li class="nav-link-logo">
+                    <a href="https://www.facebook.com/busua.Pro" target="_blank">
+                        <img 
+                        src="src/img/busua_logo.png" 
+                        alt="logo de BUSUA Venezuela"
+                        class="header-img" 
+                        id="header-img">
+                    </a>
+                </li>
+                <li class="nav-link"><a href="#"  id="nav-link-homes">Home</a></li>
+                <li class="nav-link has-submenu"><a id="nav-link-curso">Cursos</a>
+                    <ul class="submenu">
+                        <li ><a href="#open" class="subitem">Open</a></li>
+                        <li><a href="#avanzado" class="subitem">Avanzado</a></li>
+                        <li><a href="#nitrox" class="subitem">Nitrox</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link"><a href="#video"  id="nav-link-video">Videos</a></li>
+                <li class="nav-link"><a href="#email"  id="nav-link-precio">Subcripbirse</a></li>
+                <li class="nav-link-iconMenu active" ><a href="#"  id="nav-link-iconMenu">&#9776</a></li>
+                <!-- <li class="nav-link-iconCierre "><a href="#" id="nav-link-iconCierre">&#9747</a></li> -->
+            </ul>
+        </nav>
+                
+        
+    </header>
+    <div > 
+        <div class="cursos">
+            <p id="p-Cursos">CURSOS:</p>
+            <div class="subCurso">
+                <div class="curso" id="open">
+                    <img src="https://4d8ff2bc0f02b2acc429-3995c1b535a59ed5ef07494608250dd1.ssl.cf1.rackcdn.com/OW-Gallery-hero-1-TlujvLJ-.jpg" alt="Curso Open">
+                    <div class="accion">
+                        <h3>Open Water Diver</h3>
+                        <h4>$185</h4>
+                        <button>Comprar</button>
+                        <div class="descripcion">
+                            <p>
+                                PADI® Open Water Diver is the first scuba certification level. A highly-trained PADI Instructor will teach you how to scuba dive in a relaxed, supportive learning environment.
+                            </p>
+                            <p>
+                                By the end of the course, you'll have the skills and knowledge to dive at home or abroad and be an ambassador for the underwater world.
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+                <div class="curso" id="avanzado">
+                    <img src="https://4d8ff2bc0f02b2acc429-3995c1b535a59ed5ef07494608250dd1.ssl.cf1.rackcdn.com/AOW-Gallery-hero-2-dsKTrUz_.jpg" alt="Curso Avanzado">
+                    <div class="accion">
+                        <h3>Avanced Open Water Diver</h3>
+                        <h4>$185</h4>
+                        <button>Comprar</button>
+                        <div class="descripcion">
+                            <p>
+                                The Advanced Open Water Diver course is all about advancing your skills. You'll practice navigation and buoyancy, try deep diving and make three specialty dives of your choosing (it's like a specialty sampler platter). For every specialty dive you complete, you can earn credit toward PADI® specialty certifications.
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+                <div class="curso" id="nitrox">
+                    <img src="https://4d8ff2bc0f02b2acc429-3995c1b535a59ed5ef07494608250dd1.ssl.cf1.rackcdn.com/Eax-Gallery-hero-5-W-E_-S-m.jpg" alt="Aire Enriquesido">
+                    <div class="accion">
+                        <h3>Enriched Air Diver</h3>
+                        <h4>$185</h4>
+                        <button>Comprar</button>
+                        <div class="descripcion">
+                            <p>
+                                Enriched air, also known as nitrox or EANx, contains less nitrogen than regular air. Breathing less nitrogen means you can enjoy longer dives and shorter surface intervals. No wonder Enriched Air Diver is the most popular PADI® specialty.
+                            </p>
+                            
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <!-- <video src="#" id="video" #video></video> -->
+            <p id="p-Videos">Videos: </p>
+            <div class="subVideos">
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/5YOAz2KUH2o" 
+                title="Cave Dive in Floridar" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                id="video">
+            </iframe>
+            </div>
+            
+        </div>
+        <div class="form">
+            <h2>Stay connected with inspirational diving emails from PADI</h2>
+            <form 
+                action="https://www.freecodecamp.com/email-submit"
+                id="form">
+            <!-- El name="email" es importante para poder enviar la informacion -->
+            <input name="email" type="email" id="email" placeholder="Introduce Email" required>
+            <input type="submit" id="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
