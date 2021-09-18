@@ -1,9 +1,7 @@
 # Paguina de Landing para www.freecodecamp curso de Web Design.
+El objetivo fue cumplir los criterios y agregar algo de funcionalidad basica.
 
 ## Criterios utilizados para la evaluacion:
-
-NOTA: El objetivo fue cumplir los criterios y agregar algo de funcionalidad basica.
-
 1. User Story #1: My product landing page should have a header element with a corresponding id="header".
 
 2. User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
